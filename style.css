@@ -18,6 +18,7 @@ body {
 }
 
 .btn {
+    display: inline-block;
     padding: 10px 20px;
     background-color: #0c9aec;
     color: #fff;
@@ -73,6 +74,8 @@ body {
     font-size: 50px;
 }
 
+.contact h2 span,
+footer h2 span,
 .section-heading span,
 .top-section span {
     color: darkblue;
@@ -144,8 +147,55 @@ body {
 }
 
 .fourth-cection .text-section {
-    /* margin-left: auto; */
     width: 60%;
 }
 
-.fourth-cection img {}
+
+/******** Contact*********/
+
+.input-sec {
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    outline: transparent;
+    border: 1px solid #ccc;
+}
+
+.contact {
+    width: 660px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 30px gray;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.contact label {
+    text-align: left;
+}
+
+
+/******** Footer*********/
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #0B0D17;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Romanesco', cursive;
+    font-weight: 500;
+}
+
+footer p {
+    color: #fff;
+}
